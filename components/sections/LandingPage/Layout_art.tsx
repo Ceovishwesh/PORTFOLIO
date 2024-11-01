@@ -17,7 +17,7 @@ export default function LayoutArt() {
       className="w-full min-h-screen flex items-center justify-center p-4 md:p-8"
       style={{
         backgroundColor: 'var(--background)',
-        backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='126' height='84' viewBox='0 0 126 84'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23e3d8b7' fill-opacity='0.5'%3E%3Cpath d='M126 83v1H0v-2h40V42H0v-2h40V0h2v40h40V0h2v40h40V0h2v83zm-2-1V42H84v40h40zM82 42H42v40h40V42zm-50-6a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM8 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm96 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm-42 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm30-12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM20 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm12 24a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM8 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM8 78a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm12 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm54 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM50 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM50 78a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm54-12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm12 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM92 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM92 78a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24-42a4 4 0 1 1 0-8 4 4 0 0 1 0 8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+        backgroundImage: `url("data:image/svg+xml,%3Csvg width='80' height='88' viewBox='0 0 80 88' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M22 21.91V26h-2c-9.94 0-18 8.06-18 18 0 9.943 8.058 18 18 18h2v4.09c8.012.722 14.785 5.738 18 12.73 3.212-6.99 9.983-12.008 18-12.73V62h2c9.94 0 18-8.06 18-18 0-9.943-8.058-18-18-18h-2v-4.09c-8.012-.722-14.785-5.738-18-12.73-3.212 6.99-9.983 12.008-18 12.73zM54 58v4.696c-5.574 1.316-10.455 4.428-14 8.69-3.545-4.262-8.426-7.374-14-8.69V58h-5.993C12.27 58 6 51.734 6 44c0-7.732 6.275-14 14.007-14H26v-4.696c5.574-1.316 10.455-4.428 14-8.69 3.545 4.262 8.426 7.374 14 8.69V30h5.993C67.73 30 74 36.266 74 44c0 7.732-6.275 14-14.007 14H54zM42 88c0-9.94 8.06-18 18-18h2v-4.09c8.016-.722 14.787-5.738 18-12.73v7.434c-3.545 4.262-8.426 7.374-14 8.69V74h-5.993C52.275 74 46 80.268 46 88h-4zm-4 0c0-9.943-8.058-18-18-18h-2v-4.09c-8.012-.722-14.785-5.738-18-12.73v7.434c3.545 4.262 8.426 7.374 14 8.69V74h5.993C27.73 74 34 80.266 34 88h4zm4-88c0 9.943 8.058 18 18 18h2v4.09c8.012.722 14.785 5.738 18 12.73v-7.434c-3.545-4.262-8.426-7.374-14-8.69V14h-5.993C52.27 14 46 7.734 46 0h-4zM0 34.82c3.213-6.992 9.984-12.008 18-12.73V18h2c9.94 0 18-8.06 18-18h-4c0 7.732-6.275 14-14.007 14H14v4.696c-5.574 1.316-10.455 4.428-14 8.69v7.433z' fill='%23e3d8b7' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E")`,
         backgroundAttachment: 'fixed',
         backgroundPosition: 'center',
       }}
@@ -79,7 +79,7 @@ export default function LayoutArt() {
                 scale: 1.02,
                 y: -5,
                 zIndex: 20,
-                boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)",
+                boxShadow: "0 20px 25px -5px #000, 0 8px 10px -6px rgb(0 0 0 / 0.1)",
                 transition: {
                   type: "spring",
                   stiffness: 300,
@@ -97,12 +97,12 @@ export default function LayoutArt() {
               className="absolute top-0 left-[calc(62.5%+1.8%)] right-0 h-[50%] bg-[#F0F1EC]"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.3 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
               whileHover={{
                 scale: 1.02,
                 y: -5,
                 zIndex: 20,
-                boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)",
+                boxShadow: "0 20px 25px -5px #000, 0 8px 10px -6px rgb(0 0 0 / 0.1)",
                 transition: {
                   type: "spring",
                   stiffness: 300,
@@ -120,12 +120,12 @@ export default function LayoutArt() {
               className="absolute top-[calc(25%+1.8%)] left-0 w-[62.5%] h-[calc(25%-1.8%)] bg-[#F0F1EC]"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.4 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
               whileHover={{
                 scale: 1.02,
                 y: -5,
                 zIndex: 20,
-                boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)",
+                boxShadow: "0 20px 25px -5px #000, 0 8px 10px -6px rgb(0 0 0 / 0.1)",
                 transition: {
                   type: "spring",
                   stiffness: 300,
@@ -143,12 +143,12 @@ export default function LayoutArt() {
               className="absolute top-[calc(50%+1.8%)] left-0 w-[62.5%] bottom-0 bg-[#E72F24]"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.5 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
               whileHover={{
                 scale: 1.02,
                 y: -5,
                 zIndex: 20,
-                boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)",
+                boxShadow: "0 20px 25px -5px #000, 0 8px 10px -6px rgb(0 0 0 / 0.1)",
                 transition: {
                   type: "spring",
                   stiffness: 300,
@@ -166,12 +166,12 @@ export default function LayoutArt() {
               className="absolute top-[calc(50%+1.8%)] left-[calc(62.5%+1.8%)] right-0 h-[calc(25%-1.8%)] bg-[#F0F1EC]"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.6 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
               whileHover={{
                 scale: 1.02,
                 y: -5,
                 zIndex: 20,
-                boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)",
+                boxShadow: "0 20px 25px -5px #000, 0 8px 10px -6px rgb(0 0 0 / 0.1)",
                 transition: {
                   type: "spring",
                   stiffness: 300,
@@ -189,12 +189,12 @@ export default function LayoutArt() {
               className="absolute top-[calc(75%+1.8%)] left-[calc(62.5%+1.8%)] right-0 h-[calc(12.5%-1.8%)] bg-[#F9D01E]"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.7 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
               whileHover={{
                 scale: 1.02,
                 y: -5,
                 zIndex: 20,
-                boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)",
+                boxShadow: "0 20px 25px -5px #000, 0 8px 10px -6px rgb(0 0 0 / 0.1)",
                 transition: {
                   type: "spring",
                   stiffness: 300,
@@ -212,12 +212,12 @@ export default function LayoutArt() {
               className="absolute top-[calc(87.5%+1.8%)] left-[calc(62.5%+1.8%)] right-0 h-[calc(12.5%-1.8%)] bg-[#232629]"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.8 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
               whileHover={{
                 scale: 1.02,
                 y: -5,
                 zIndex: 20,
-                boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)",
+                boxShadow: "0 20px 25px -5px #000, 0 8px 10px -6px rgb(0 0 0 / 0.1)",
                 transition: {
                   type: "spring",
                   stiffness: 300,
